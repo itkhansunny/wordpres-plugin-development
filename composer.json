@@ -1,0 +1,20 @@
+{
+    "name": "itkhansunny/wedevs-academy",
+    "description": "A tutorial plugin for weDevs Academy",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Khan Sunny",
+            "email": "it.khansunny@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
