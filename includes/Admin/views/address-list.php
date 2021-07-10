@@ -10,7 +10,7 @@
     <?php  } ?>
 
     <?php if( isset( $_GET['address-success'] ) && $_GET['address-deleted'] == true ){ ?>
-        <div class="notice notice-error">
+        <div class="notice notice-success">
             <p><?php _e( 'Address has been deleted successfully!', 'wedevs-academy' ); ?></p>
         </div>
     <?php  } ?>
